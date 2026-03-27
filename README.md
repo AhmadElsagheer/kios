@@ -1,5 +1,7 @@
 # Kios
 Local Kubernetes cluster setup using k3s in OrbStack.
+[kios.webm](https://github.com/user-attachments/assets/d3b66751-d7d6-47c2-9a07-e0b761ec4104)
+
 
 ## Features
 - K3s cluster in OrbStack
@@ -55,7 +57,7 @@ kubectl port-forward -n backend svc/demo-app 9898:9898
 # Grafana (http://localhost:3000, username/password: admin/admin)
 kubectl port-forward -n monitoring svc/kube-prometheus-stack-grafana 3000:80
 
-# OPTION 2: INGRESS (http://demo-app.local, http://grafana.local)
+# OPTION 2: INGRESS (http://demo-app.local, http://grafana.local, username/password: admin/admin)
 echo "$(orb info control-plane | awk '/IPv4:/ {print $2}') demo-app.local grafana.local" | sudo tee -a /etc/hosts
 ```
 You can find the demo dashboard at `Dashboards > Demo Dash`
