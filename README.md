@@ -1,6 +1,7 @@
 # Kios
 Local Kubernetes cluster setup using k3s in OrbStack.
-[kios.webm](https://github.com/user-attachments/assets/d3b66751-d7d6-47c2-9a07-e0b761ec4104)
+<video src="https://github.com/user-attachments/assets/d3b66751-d7d6-47c2-9a07-e0b761ec4104" controls="controls" width="100%">
+</video>
 
 
 ## Features
