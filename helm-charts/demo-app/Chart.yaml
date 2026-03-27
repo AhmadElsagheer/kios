@@ -1,0 +1,6 @@
+apiVersion: v2
+name: demo-app
+description: A mini helm chart for demo-app with metrics
+type: application
+version: 1.1.0
+appVersion: "6.7.0"
